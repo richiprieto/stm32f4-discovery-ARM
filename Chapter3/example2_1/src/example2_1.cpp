@@ -1,8 +1,7 @@
 /*Program Example 2.1: A program which flashes mbed LED1 on and off. Demonstrating
 use of digital output and wait functions. Taken from the mbed site.
 */
-#include "mbed.h"
-//include the mbed header file as part of this program
+#include "mbed.h" //include the mbed header file as part of this program
 // program variable myled is created, and linked with mbed LED1
 DigitalOut myled(LED1);
 int main() {//the main function starts here
